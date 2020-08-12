@@ -1,0 +1,52 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  border-bottom: 2px solid black;
+}
+
+.banner h3 {
+  font-size: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+.title {
+  font-size: 30px;
+}
+
+ul {
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+li {
+  border: 1px solid black;
+  margin-top: 50px;
+  margin: 10px;
+}
+
+.pad {
+  padding: 10px;
+  background-color: #F8F9FA;
+}
+
+div h1 {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+}
+
+.links div {
+  margin-right: 15px;
+}
+
+.link1 {
+  text-align: center;
+  vertical-align: center;
+}
